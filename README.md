@@ -26,7 +26,7 @@ Any added tasks or changes made to existing ones are all stored in the table tbl
 5. Click Sumbit. The updated task will appear automatically under the list you have chosen in the drop down menu.
 6. All changes are updated withing the database.
 
-**Please note that if the user intends to change the number of hours or state ONLY make sure that the new task and existing task are written are identical and also the correct number of hours**
+**Please note that if the user intends to change the number of hours or state ONLY make sure that the new task and existing task are written are identical. This also applies for the correct number of hours**
 
 ## Deleting a Task
 
@@ -35,3 +35,5 @@ Any added tasks or changes made to existing ones are all stored in the table tbl
 ## Dragging and Dropping
 
 There is functionality for dragging and dropping withing lists. However in order to change the state of a task(e.g from To-Do to Completed) the user must edit the state from the edit form provided. Each list is colour coded, the state of the task can be identified by hovering over the task.
+
+**Known Bug: Cannot Drop On Empty list **
