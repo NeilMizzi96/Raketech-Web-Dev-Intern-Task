@@ -1,20 +1,20 @@
 # Rakethech Web Dev Intern Task
 
-This is a To-Do list application that allows the user to input new tasks as well as sort,delete and update existing ones withing 3 lists.
+This is a To-Do list application that allows the user to input new tasks as well as sort,delete and update existing ones within 3 lists.
 
 These lists are:
 
-1) To Do (statusID = 1 Colour Coded: Green)
-2) In Progress( statusID = 2 Colour Coded: Orange)
-3) Completed (statusID = 3 Colour Coded: red)
+1) To Do (statusID = 1 Colour Coded: Green).
+2) In Progress( statusID = 2 Colour Coded: Orange).
+3) Completed (statusID = 3 Colour Coded: red).
 
 Each task is stored in the databse **(The exported database has been provided in db/raketechtask_db)** and sorted with the mentioned list depending on their individual "status_ID".
 
-Any added tasks or changes made to existing ones are all stored in the table tbl_changes
+Any added tasks or changes made to existing ones are all stored in the table tbl_changes.
 
 ## Adding a new task:
 
-1. Enter the name of the new task within the textbox with the placeholder "New Task Here" and the number of hours in the textbox underneath(Placeholder = "New Hours Here")
+1. Enter the name of the new task within the textbox with the placeholder "New Task Here" and the number of hours in the textbox underneath(Placeholder = "New Hours Here").
 2. Click Submit. The new task will appear automatically under the To-Do list and the total hours at the bottom of the list will update. The number of hours and the name of the task will also be recorded in the database.
 
 ## Updating a task:
@@ -22,7 +22,7 @@ Any added tasks or changes made to existing ones are all stored in the table tbl
 1. Enter the name of the current task within the textbox with the placeholder "Existing Task Here".
 2. Enter the new name of the task within the textbox with the placeholder "New Task Here".
 3. Enter the new ammount of hours within the textbox with the placeholder "Enter Hours Here".
-4. Select either "To Do" , "In Progress" , "Completed" from the drop-down list.
+4. Select either "To Do" , "In Progress" or "Completed" from the drop-down list.
 5. Click Sumbit. The updated task will appear automatically under the list you have chosen in the drop down menu.
 6. All changes are updated withing the database.
 
